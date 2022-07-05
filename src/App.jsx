@@ -1,15 +1,14 @@
+import { Typography } from '@mui/material';
 import { useState } from 'react';
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
     <div className='App'>
       <header className='App-header'>
-        <p>test!</p>
+        <Typography variant='h1'>test!</Typography>
       </header>
     </div>
   );
-}
+};
 
 export default App;
